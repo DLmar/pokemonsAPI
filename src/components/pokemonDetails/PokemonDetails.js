@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useEffect, useReducer } from "react";
+
 import { axiosInstanceClear, getPokemon } from "../../services";
 
 function reducer(state, action) {

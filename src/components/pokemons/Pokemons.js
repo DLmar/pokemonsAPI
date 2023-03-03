@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { Outlet } from 'react-router-dom';
+
 import { getPokemons } from '../../services';
 import { Pokemon } from '../pokemon/Pokemon';
-import { Outlet } from 'react-router-dom';
 
 import { makeStyles } from '@material-ui/core/styles';
 
